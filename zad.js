@@ -15,3 +15,11 @@ function zmienKolorNaglowka() {
     });
 }
 
+// Funkcja zmieniająca tło sekcji
+function zmienKolorSekcji() {
+    const sekcje = document.querySelectorAll('section');
+
+    sekcje.forEach(function(sekcja) {
+        sekcja.style.backgroundColor = 'aliceblue';
+    });
+}

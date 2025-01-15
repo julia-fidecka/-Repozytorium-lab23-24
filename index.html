@@ -7,47 +7,62 @@
         <meta name="keywords" content="strona internetowa, zadanie, lab 23 i 23, GIT">
         <meta name="author" content="Julia Fidecka">
         <title>Zadanie - lab 23/24</title>
-        <link rel="stylesheet" href="zad.css">
+        <link rel="stylesheet" href="style.css">
     </head>
 <body>
     <h1>Witaj na mojej stronie!</h1>
     <img src="zdjecie-git.webp" alt="Logo git" width="400">
 
-    <h2>Czym jest Git?</h2>
-            <p>Git to system kontroli wersji, który pozwala na śledzenie zmian w plikach w czasie. Git umożliwia współpracę wielu osób nad jednym projektem, zarządzanie wersjami plików, a także odzyskiwanie poprzednich wersji kodu.</p>
+    <section>
+        <h2>Czym jest Git?</h2>
+        <p>Git to system kontroli wersji, który pozwala na śledzenie zmian w plikach w czasie. Git umożliwia współpracę wielu osób nad jednym projektem, zarządzanie wersjami plików, a także odzyskiwanie poprzednich wersji kodu.</p>
+    </section>
 
-    <h2>Historia Git</h2>
-    <p>Git został stworzony w 2005 roku przez Linusa Torvaldsa, twórcę jądra Linux. Powstał jako odpowiedź na potrzebę lepszego systemu kontroli wersji dla rozwoju jądra Linux.</p>
-            
-    <h2>Podstawowe komendy Git</h2>
-    <p>Git oferuje szereg komend, które pomagają zarządzać repozytoriami i wersjami kodu. Oto kilka z nich:</p>
-    <ul>
-        <li><strong>git init</strong> - Inicjalizuje nowe repozytorium Git w bieżącym katalogu.</li>
-        <li><strong>git add <i>plik</i></strong> - Dodaje zmiany w pliku do obszaru staging (czyli do przygotowania do commitowania).</li>
-        <li><strong>git commit -m "wiadomość"</strong> - Tworzy nowy commit, zapisując zmiany w repozytorium.</li>
-        <li><strong>git status</strong> - Sprawdza status repozytorium, pokazując zmiany w plikach.</li>
-        <li><strong>git log</strong> - Wyświetla historię commitów w repozytorium.</li>
-    </ul>
+    <section>
+        <h2>Historia Git</h2>
+        <p>Git został stworzony w 2005 roku przez Linusa Torvaldsa, twórcę jądra Linux. Powstał jako odpowiedź na potrzebę lepszego systemu kontroli wersji dla rozwoju jądra Linux.</p>
+    </section>
+    
+    <section>
+        <h2>Podstawowe komendy Git</h2>
+        <p>Git oferuje szereg komend, które pomagają zarządzać repozytoriami i wersjami kodu. Oto kilka z nich:</p>
+        <ul>
+            <li><strong>git init</strong> - Inicjalizuje nowe repozytorium Git w bieżącym katalogu.</li>
+            <li><strong>git add <i>plik</i></strong> - Dodaje zmiany w pliku do obszaru staging (czyli do przygotowania do commitowania).</li>
+            <li><strong>git commit -m "wiadomość"</strong> - Tworzy nowy commit, zapisując zmiany w repozytorium.</li>
+            <li><strong>git status</strong> - Sprawdza status repozytorium, pokazując zmiany w plikach.</li>
+            <li><strong>git log</strong> - Wyświetla historię commitów w repozytorium.</li>
+        </ul>
+    </section>
 
-    <h2>Zalety korzystania z Git</h2>
-    <ul>
-        <li><strong>Śledzenie historii zmian</strong> – łatwe przeglądanie wszystkich modyfikacji w projekcie.</li>
-        <li><strong>Rozproszona architektura</strong> – każdy użytkownik ma lokalną kopię repozytorium.</li>
-        <li><strong>Współpraca zespołowa</strong> – łatwe zarządzanie zmianami od wielu użytkowników.</li>
-        <li><strong>Obsługa gałęzi (branching)</strong> – możliwość równoległego rozwijania różnych funkcjonalności.</li>
-        <li><strong>Ochrona przed utratą danych</strong> – bezpieczne cofanie zmian i odzyskiwanie stanu projektu.</li>
-        <li><strong>Bezpłatne i szeroko wspierane narzędzie z dużą społecznością.</strong></li>
-    </ul>
+    <section>
+        <h2>Zalety korzystania z Git</h2>
+        <ul>
+            <li><strong>Śledzenie historii zmian</strong> – łatwe przeglądanie wszystkich modyfikacji w projekcie.</li>
+            <li><strong>Rozproszona architektura</strong> – każdy użytkownik ma lokalną kopię repozytorium.</li>
+            <li><strong>Współpraca zespołowa</strong> – łatwe zarządzanie zmianami od wielu użytkowników.</li>
+            <li><strong>Obsługa gałęzi (branching)</strong> – możliwość równoległego rozwijania różnych funkcjonalności.</li>
+            <li><strong>Ochrona przed utratą danych</strong> – bezpieczne cofanie zmian i odzyskiwanie stanu projektu.</li>
+            <li><strong>Bezpłatne i szeroko wspierane narzędzie z dużą społecznością.</strong></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>GitHub - platforma współpracy</h2>
+        <p>GitHub to popularna platforma do hostingu repozytoriów Git, która ułatwia współpracę, zarządzanie wersjami kodu, oraz integrację z innymi narzędziami i usługami. GitHub umożliwia łatwe tworzenie pull requestów, zarządzanie problemami (issues) i wiki projektów.</p>
+    </section>
 
     <button onclick="zmienKolorTla()">Zmień kolor tła</button>
 
     <button onclick="zmienKolorNaglowka()">Zmień kolor nagłówka</button>
 
+    <button onclick="zmienKolorSekcji()">Zmień kolor tła sekcji</button>
+
     <footer>
         <p>Strona stworzona przez <strong>Julie Fidecką</strong> - lab 23/24</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="zad.js"></script>
     
 </body>
 </html>
